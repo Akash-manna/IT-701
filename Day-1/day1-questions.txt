@@ -1,0 +1,9 @@
+Day 1:
+	APPLET
+	1. Display Clock using Applet.
+	2. Create different shapes using Applet.
+	3. Goto a link using Applet.
+	4. Display image using Applet.
+	5. Open a link in a new window using Applet.
+	6. Play Sound using Applet.
+	
