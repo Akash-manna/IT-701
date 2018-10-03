@@ -1,0 +1,13 @@
+Day-2:
+	1. Create a html page containing some paragraph. Some listing of items as follows:
+			● Tea
+				● Black Tea
+				● Green Tea
+			● Coffee
+		Create a CSS rule that makes all text in the paragraph 1.5 times larger than the base font of the
+		System and colors of the text red, and  shifts all the items right by 3cms and the nested items by 5cms. Use Inline Style Sheets.
+	2. Write a CSS rule that places a background image at the bottom left corner of the page and tilting 	it horizontally. The image should remain in place when the user scrolls up or down.
+	   Use an external Style Sheet.
+	3. Write a CSS rule that changes the color of all elements containing attribute class='greenMove' to green and all heading elements a font-size =36 pt. Use internal Style Sheet.
+	4. Design a web document containing three different style sheets.
+	
