@@ -1,0 +1,8 @@
+/*Day-2 | Question-4:
+	Design a web document containing three different style sheets.
+*/
+
+.external-text{
+	color: red;
+	font-size: 40pt;
+}

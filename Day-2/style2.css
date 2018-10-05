@@ -1,0 +1,21 @@
+/*Day-2 | Question-2:
+Write a CSS rule that places a background image at the bottom left corner of the page and tilting it horizontally. The image should remain in place when the user scrolls up or down.
+Use an external Style Sheet.
+*/
+body{
+	background-image:url("../Day-1/test.jpg");
+	background-position:bottom left;
+	background-attachment:fixed;
+	background-repeat:no-repeat;
+	z-index: -1;
+}
+h1{
+	color:blue;
+	font-size:3cm;
+	z-index: 999;
+}
+p{
+	color: green;
+	font-size: 0.7cm;
+	z-index: 999;
+}
