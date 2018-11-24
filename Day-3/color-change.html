@@ -1,0 +1,20 @@
+<!--Day-3|Question-6:
+	Design a HTML page that has three buttons, 'red', 'green', 'blue'. If you click any of them,the background color also changes as the name of the button showing the corresponding alert message.-->
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Change Color USing Button</title>
+	<script type="text/javascript">
+		function colorDG(a)
+		{
+			document.bgColor=a;
+			alert("Color is "+a);
+		}
+	</script>
+</head>
+<body>
+	<input type="button" value="Red" onClick=colorDG("red")>
+	<input type="button" value="Green" onClick=colorDG("green")>
+	<input type="button" value="Blue" onClick=colorDG("blue")>
+</body>
+</html>

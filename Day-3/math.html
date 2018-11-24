@@ -1,0 +1,44 @@
+<!--Day-3|Question-7:
+ Write a program in JavaScript that will take two numbers as user input and calculate their sum, product, division and modulus by clicking the appropriate button.-->
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Sum, Product, etc.</title>
+	<script type="text/javascript">
+		function calculate(task){
+			var n1 = parseInt(document.calculator.n1.value);
+			var n2 = parseInt(document.calculator.n2.value);
+			if (task === "add") {
+				var ans = n1 + n2;
+				document.calculator.result.value = ans;
+			}
+			if (task === "div") {
+				var ans = n1 / n2;
+				document.calculator.result.value = ans;
+			}			
+			if (task === "mult") {
+				var ans = n1 * n2;
+				document.calculator.result.value = ans;
+			}
+			if (task === "mod") {
+				var ans = n1 % n2;
+				document.calculator.result.value = ans;
+			}
+		}
+	</script>
+</head>
+<body>
+	<form name=calculator>
+		<pre>
+			First Number...:<input type="text" name="n1">
+			Second Number..:<input type="text" name="n2">
+			--------------------------------------
+			Answer.........:<input type="text" name="result" readonly>
+		</pre>
+		<input type="button" value="Add" onClick=calculate("add")>
+		<input type="button" value="Divide" onClick=calculate("div")>
+		<input type="button" value="Multiply" onClick=calculate("mult")>
+		<input type="button" value="Modulus" onClick=calculate("mod")>
+	</form>
+</body>
+</html>

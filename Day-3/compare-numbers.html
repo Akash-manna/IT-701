@@ -1,0 +1,32 @@
+<!--Day-3|Question-3:
+	Design a HTML page to compare two numbers supplied by user. The bigger number will be displayed in a seperate field. Use array object.-->
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Compare Two Numbers</title>
+	<script type="text/javascript">
+		var numArray = new Array();
+		function insert(){
+			var numValue = document.getElementById('number').value;
+			numArray[numArray.length] = numValue;
+		}
+		function show(){
+			var content = "<b>All Elements of the Array:</b><br>";
+			for(var i=0;i<numArray.length; i++){
+				content += numArray[i]+"<br>";
+			}
+			document.getElementById('display').innerHTML = content;
+			var maximum = Math.max(...numArray);
+			document.getElementById('displayMax').innerHTML = "Maximum Number is "+maximum;
+		}
+	</script>
+</head>
+<body>
+	Number:<input type="text" id="number">
+	<input type="button" value="submit" onClick="insert()">
+	<input type="button" value="show" onClick="show()">
+	<h2><b>Data:</b></h2><br>
+	<p id="displayMax"></p>
+	<div id="display"></div>
+</body>
+</html>

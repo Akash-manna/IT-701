@@ -1,0 +1,32 @@
+<!--Day-3 | Question-1:
+	Design a HTML Page that has three fields email, name and age and a submit button.
+	If you enter a wrong email(e.g. '@' sign is missing), name (>10 characters), age(>100)
+	corresponding alert message/s will be fired.
+-->
+<!DOCTYPE html>
+<html>
+
+<head>
+	<title>Check Field Values</title>
+	<script type="text/javascript">
+		function checkDG() {
+			if (document.verify.email.value.indexOf("@") < 0)
+				alert("Enter valid mail id");
+			if (document.verify.name.value.length > 10)
+				alert("Enter a name within 10 chars");
+			if (document.verify.age.value < 1 || document.verify.age.value > 100)
+				alert("Enter correct age");
+		}
+	</script>
+</head>
+
+<body>
+	<form name=verify>
+		Email id <input type="text" name=email><br>
+		Name <input type="text" name=name><br>
+		Age <input type="text" name=age><br>
+		<input type="button" value="Submit" onclick="checkDG()">
+	</form>
+</body>
+
+</html>

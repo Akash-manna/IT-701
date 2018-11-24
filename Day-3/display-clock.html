@@ -1,0 +1,31 @@
+<!--Day-3|Question-4:
+	Write a JavaScript program to display a clock in a html page.-->
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Display Clock</title>
+</head>
+<body>
+	<script type="text/javascript">
+		var d =new Date();
+		var h =d.getHours();
+		var m =d.getMinutes();
+		var s =d.getSeconds();
+		var dy=d.getDate();
+		var mon=d.getMonth() + 1;
+		var yr=d.getFullYear();
+		if(dy<10)
+			dy="0"+ dy;
+		if(mon<10)
+			mon="0"+ mon;
+		document.write(dy+"/"+mon+"/"+yr+"<br>");
+		if(h>12)
+		{
+			h=h-12;
+			document.write(h+":"+m+":"+s+"pm");
+		}
+		else
+			document.write(h+":"+m+":"+s+"am");
+	</script>
+</body>
+</html>

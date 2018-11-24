@@ -1,0 +1,18 @@
+<!--Day-3|Question-5:
+	Write a JavaScript program to create a button. If you click on it, a prompt will appear asking your name. If you enter your name and click 'OK' button, a greeting message will appear.-->
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Prompted Name Welcome</title>
+	<script type="text/javascript">
+		function prompter() {
+			var name = prompt("Enter Your Name");
+			document.getElementById('message').innerHTML = "Welcome "+name;
+		}
+	</script>
+</head>
+<body>
+	<p id="message"></p>
+	<input type="button" value="Start" onClick="prompter()">
+</body>
+</html>

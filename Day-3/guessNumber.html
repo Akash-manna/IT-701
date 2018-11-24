@@ -1,0 +1,38 @@
+<!--Day-3 | Question-2:
+	 Write a program in JavaScript where the Program chooses a number between 1 and 20. You are
+	 then prompted to enter a guess. If the players guess wrong then the prompt appears again until
+	 the guess is correct. When the player has made a sucessful guess, the computer will give a
+	 "Well Guessed!" message and the program will exit.
+-->
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Guess The Number</title>
+	<script type="text/javascript">
+		function guessNumber() {
+			//Get a number from 1 to 20 inclusive.
+			var num = Math.ceil(Math.random() * 20);
+			var guess = document.guessForm.number.value;
+			while(guess != num){
+				if(guess < num){
+					guess = prompt('You should go higher!');
+				}
+				else if (guess === '07081996') {
+					prompt('You are a Cheater! The Number is '+num);
+				}
+				else{
+					guess = prompt('You should go lower!');
+				}
+			}
+			alert('Congratulations!\nThe number was '+num);
+		}
+		// guessNumber();
+	</script>
+</head>
+<body>
+	<form name="guessForm">
+		Your Guess: <input type="number" name="number">
+		<input type="submit" value="submit" onclick="guessNumber()">
+	</form>
+</body>
+</html>

@@ -1,0 +1,28 @@
+Day-3:
+	JavaScript:
+		1. Design a HTML Page that has three fields email, name and age and a submit button.
+		   If you enter a wrong email(e.g. '@' sign is missing), name (>10 characters), age(>100)
+		   corresponding alert message/s will be fired.
+
+		2. Write a program in JavaScript where the Program chooses a number between 1 and 20. You are
+		   then prompted to enter a guess. If the players guess wrong then the prompt appears again until
+		   the guess is correct. When the player has made a sucessful guess, the computer will give a
+		   "Well Guessed!" message and the program will exit.
+
+		3. Design a HTML page to compare two numbers supplied by user. The bigger number will be
+		   displayed in a seperate field. Use array object.
+
+		4. Write a JavaScript program to display a clock in a html page.
+
+		5. Write a JavaScript program to create a button. If you click on it, a prompt will appear asking
+		   your name. If you enter your name and click 'OK' button, a greeting message will appear.
+
+		6. Design a HTML page that has three buttons, 'red', 'green', 'blue'. If you click any of them,
+		   the background color also changes as the name of the button showing the corresponding alert
+		   message.
+
+		7. Write a program in JavaScript that will take two numbers as user input and calculate their
+		   sum, product, division and modulus by clicking the appropriate button.
+
+		8. Write a JavaScript program to validate a form that contains 4 fields (Name, Phone No.,
+		   Username and Password) by using Regular expressions.
