@@ -1,0 +1,17 @@
+Day-4:
+	1. Write a simple PERL Script to take input name, college, stream as a input from the terminal and display it.
+	2. Write a PERL script to search a word from a sentence.
+		a) Using String matching method.
+		b) Using Substitution method.
+	3. Write a PERL script to implement Celsius to Farheinheit Converter.
+	4. Write a PERL script to convert all lower case letters to upper case.
+	5. Write a PERL script to convert all first letter of a sentence to upper case.
+	6. Write a PERL script to implement the regular expression as follows:
+		a) If a String contains any vowel, count the total number of vowels.
+		b) If a string starts with MCA and ends with bw, print 1. else 0.
+	7. Implement the following with regular expression in PERL:
+		a) a* at least 2 b's.
+		b) a* exactly 3 b's.
+		c) a*bc.
+	8. Write a PERL Script to implement associative array.
+	9. Write a PERL script to implement simple file operation.
